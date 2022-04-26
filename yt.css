@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #191919;
+}
+#vidimg {
+    height: 180px;
+    height: 120px;
+    border: dashed white 3px;
+}
+div {
+    margin-left: 50px;
+    transition: all 1s;
+}
+#chanimg {
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+#channame {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+img,h6 {
+    display: inline-block;
+}
+h4,h6{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    color: rgb(202, 202, 202);
+}
+#vidimg:hover {
+    border: none;
+    outline: 5px dashed white;
+    box-shadow: 0 0 0 5px #767676;
+}
+#chanimg:hover {
+    height: 48px;
+    width: 48px;
+}
+h4:hover,h6:hover {
+    font-size: 130%;
+}
